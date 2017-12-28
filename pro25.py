@@ -13,3 +13,7 @@ def maxmain():
 		if max<s:
 			max=s
 	print(max)
+try:
+	maxmain()
+except:
+	print('invalid input')
