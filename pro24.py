@@ -15,6 +15,6 @@ def main():
 		print(out)
 		out=''
 try:
-  main()
+ 	 main()
 except:
-  print('invalid')
+  	print('invalid')
