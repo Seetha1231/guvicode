@@ -9,15 +9,14 @@ def  main():
 		s+=l[i]
 	sub1=s/sub
 	s=0
-  for i in range(n-sub,n):
+	for i in range(sub,n):
 		s+=l[i]
-	sub2=s/sub
-  print(l)
+	sub2=s/(n-sub)
+	print(sub1,sub2)
 	if sub1==sub2 :
-		if l[sub]==sub1 :
-			print('yes')
-		else :
-			print('no')
+		print('yes')
+	else :
+		print('no')
       
 try:
   main()
