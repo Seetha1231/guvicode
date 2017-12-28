@@ -34,6 +34,6 @@ def g(a,b):
 	b=input()
 	print(g(a,b))
 try:
-  main()
+ 	 main()
 except:
-  print('invalid')
+ 	 print('invalid')
