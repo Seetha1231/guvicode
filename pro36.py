@@ -14,6 +14,6 @@
 	else :
 		print('none')
 try:
-    army()
+    	army()
 except:
-    print('invalid')
+    	print('invalid')
