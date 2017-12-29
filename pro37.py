@@ -8,3 +8,7 @@ def extrema():
 		if (l[i]<l[i-1] and l[i]<l[i+1] ) or (l[i]>l[i+1] and l[i]>l[i-1]):
 			c=c+1
 	print(c)
+try:
+	extrema()
+except:
+	print('invalid')
