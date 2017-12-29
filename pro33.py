@@ -18,6 +18,6 @@ def substr():
 	print(out)
   
 try:
-  substr()
+  	substr()
 except:
-  print('invalid')
+  	print('invalid')
