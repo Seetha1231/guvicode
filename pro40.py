@@ -18,6 +18,6 @@
 	else :
 		print('no')
 try:
-    anagram()
+	anagram()
 except:
-    print('invalid')
+    	print('invalid')
