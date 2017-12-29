@@ -14,6 +14,6 @@ def card():
 		s+=l[0]
 	print(s)
 try:
-    card()
+	card()
 except:
-    print('invalid')
+    	print('invalid')
