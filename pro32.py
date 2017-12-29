@@ -25,7 +25,7 @@
 		print(r)
 		r=[]
 try:
-    main()
+	main()
 except:
-    print('invalid')
+	print('invalid')
     
