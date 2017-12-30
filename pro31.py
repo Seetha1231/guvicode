@@ -30,3 +30,7 @@ def dag():
 			max=s
 		s=0
 	print(max)
+try:
+	deg()
+except:
+	print('invalid')
