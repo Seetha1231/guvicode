@@ -13,3 +13,7 @@ def checkpanag(str):
 def main():
 	s=input()
 	print(checkpanag(s))
+try:
+	main()
+except:
+	print('invalid')
