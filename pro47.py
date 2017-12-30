@@ -14,3 +14,7 @@ def rounding():
 			break
 		c=0
 		bas+=10
+try:
+	rounding()
+except:
+	print('invalid')
