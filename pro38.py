@@ -9,3 +9,7 @@ def insti():
 		if i!=5 and i>=k:
 			c=c+1
 	print(c)
+try:
+	insti()
+except:
+	print('invalid')
