@@ -21,3 +21,7 @@ def square():
 		print('yes')
 	else :
 		print('no')
+try:
+	square()
+except:
+	print('invalid')
