@@ -13,3 +13,7 @@ def main():
 		print(int(d))
 	else :
 		print(-1)
+try:
+	main()
+except:
+	print('invalid')
