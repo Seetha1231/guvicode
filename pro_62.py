@@ -12,7 +12,7 @@ def pro_62():
 	while(i<n-1):
 		if st[i]==st[i+1]:
 			max=2
-			statr=i
+			start=i
 			table[i][i+1]=True
 		i+=1
 	k=3
@@ -27,5 +27,5 @@ def pro_62():
 					start=i
 			i+=1
 		k+=1
-	print(n-max)
+	print(st[start:start+max])
 pro_62()
