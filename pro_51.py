@@ -1,4 +1,4 @@
- def pro_19():
+ def pro_51():
 	n=int(input())
 	l=list(map(int,input().split()))
 	for i in range(n):
@@ -11,4 +11,4 @@
 				co+=1
 			prev=l[j]
 		print(co,end=" ")
-pro_19()
+pro_51()
